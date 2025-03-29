@@ -36,7 +36,7 @@ RUN chmod +x /mc/start.sh
 EXPOSE 25565
 
 # ボリュームを追加
-VOLUME ["/mc/mods", "/mc/config"]
+VOLUME ["/mc"]
 
 # サーバーを起動
 CMD ["bash", "/mc/start.sh"]
