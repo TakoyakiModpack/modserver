@@ -6,7 +6,7 @@ RUN apt update && apt install -y openjdk-17-jre wget unzip && \
     rm -rf /var/lib/apt/lists/*
 
 # 作業ディレクトリを作成
-WORKDIR /mc
+WORKDIR /
 
 # 環境変数でForgeのバージョンを指定（変更可能）
 ARG FORGE_VERSION=1.20.1-47.1.0
@@ -23,11 +23,6 @@ RUN echo "eula=true" > eula.txt
 # 必要なディレクトリを作成
 RUN mkdir -p mods config
 
-# MODと設定ファイルをコピー（ディレクトリごとコピー）
-COPY --chown=1000:1000 mods/ /mc/mods/
-COPY --chown=1000:1000 config/ /mc/config/
-COPY server.properties /mc/server.properties
-COPY start.sh /mc/start.sh
 
 # スクリプトの実行権限を付与
 RUN chmod +x /mc/start.sh
