@@ -1,7 +1,7 @@
 services:
   java:
-    image: itzg/minecraft-server:java8
-    container_name: pixelmon(MOD名等)
+    image: itzg/minecraft-server:java17
+    container_name: modpack
     restart: always
     environment:
       EULA: "TRUE"
