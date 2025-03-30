@@ -1,0 +1,22 @@
+services:
+  java:
+    image: itzg/minecraft-server:java8
+    container_name: pixelmon(MOD名等)
+    restart: always
+    environment:
+      EULA: "TRUE"
+      VERSION: 1.20.1
+      TYPE: FORGE
+      FORGE_VERSION: 47.4.0
+      MEMORY: 8
+      SERVER_NAME: TakoyakiModpack
+      LEVEL_NAME: TakoyakiModpack
+      GAMEMODE: survival
+      DIFFICULTY: hard
+      TZ: Asia/Tokyo
+  ports:
+    - 25565:25565/tcp
+  volumes:
+    - /modpack:/data
+volumes:
+  modpack:
