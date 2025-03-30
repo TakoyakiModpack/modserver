@@ -8,16 +8,16 @@ services:
       VERSION: 1.20.1
       TYPE: FORGE
       FORGE_VERSION: 47.4.0
-      MEMORY: 8
+      MEMORY: 8192  # 8GB に設定（8GB=8192MB）
       SERVER_NAME: TakoyakiModpack
       LEVEL_NAME: TakoyakiModpack
       GAMEMODE: survival
       DIFFICULTY: hard
       TZ: Asia/Tokyo
     ports:
-      - "25565:25565/tcp"  # ポート設定はインデントを修正
+      - "25565:25565/tcp"
     volumes:
-      - /modpack:/data  # ボリューム設定もインデントを修正
+      - /modpack:/data
 
 volumes:
   modpack:
