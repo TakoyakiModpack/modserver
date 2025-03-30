@@ -8,12 +8,13 @@ services:
       VERSION: 1.20.1
       TYPE: FORGE
       FORGE_VERSION: 47.4.0
-      MEMORY: 8192  # 8GB に設定（8GB=8192MB）
+      MEMORY: 8192  # 8GB
       SERVER_NAME: TakoyakiModpack
       LEVEL_NAME: TakoyakiModpack
       GAMEMODE: survival
       DIFFICULTY: hard
       TZ: Asia/Tokyo
+      JAVA_OPTS: "-Xms8192M -Xmx8192M"  # 初期メモリと最大メモリを設定
     ports:
       - "25565:25565/tcp"
     volumes:
