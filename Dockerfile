@@ -4,8 +4,8 @@ WORKDIR /data
 
 # Forgeインストーラーを追加し、Forgeをインストール
 ADD /mods /mods
-ADD Forge-1.20.1-47.4.0-Installer.jar /data/Forge-1./20.1-47.4.0-Installer.jar
-RUN java -jar Forge-1.20.1-47.4.0-Installer.jar --installServer
+ADD Forge-1.20.1-47.4.0-Installer.jar /data/Forge-1.20.1-47.4.0-Installer.jar
+RUN java -jar /data/Forge-1.20.1-47.4.0-Installer.jar --installServer
 
 # EULAに同意
 RUN echo "eula=true" > eula.txt
