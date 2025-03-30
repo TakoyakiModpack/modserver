@@ -14,9 +14,10 @@ services:
       GAMEMODE: survival
       DIFFICULTY: hard
       TZ: Asia/Tokyo
-  ports:
-    - 25565:25565/tcp
-  volumes:
-    - /modpack:/data
+    ports:
+      - "25565:25565/tcp"  # ポート設定はインデントを修正
+    volumes:
+      - /modpack:/data  # ボリューム設定もインデントを修正
+
 volumes:
   modpack:
