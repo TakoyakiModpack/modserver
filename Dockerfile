@@ -3,7 +3,8 @@ FROM eclipse-temurin:21-jre
 WORKDIR /data
 
 # Forgeインストーラーを追加し、Forgeをインストール
-ADD Forge-1.20.1-47.4.0-Installer.jar /data/Forge-1.20.1-47.4.0-Installer.jar
+ADD /mods /mods
+ADD Forge-1.20.1-47.4.0-Installer.jar /data/Forge-1./20.1-47.4.0-Installer.jar
 RUN java -jar Forge-1.20.1-47.4.0-Installer.jar --installServer
 
 # EULAに同意
@@ -14,3 +15,4 @@ EXPOSE 25565
 
 # サーバーを起動
 CMD ["java", "-Xmx1024M", "-Xms1024M", "-jar", "forge-1.21.5-55.0.3-shim.jar", "nogui"]
+VOLUME [ "/data" ]
