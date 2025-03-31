@@ -14,5 +14,5 @@ RUN echo "eula=true" > eula.txt
 EXPOSE 25565
 
 # サーバーを起動
-CMD ["java", "-Xmx1024M", "-Xms1024M", "-jar", "forge-1.21.5-55.0.3-shim.jar", "nogui"]
+CMD ["java", "-Xmx1024M", "-Xms1024M", "-jar", "Forge-1.20.1-47.4.0-Installer.jar", "nogui"]
 VOLUME [ "/data" ]
