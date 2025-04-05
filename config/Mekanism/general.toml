@@ -211,7 +211,7 @@
 		solarMultiplier = 0.2
 		#Heat capacity of Thermal Evaporation Tower layers (increases amount of energy needed to increase temperature).
 		#Range: 1.0 ~ 1000000.0
-		heatCapacity = 100.0
+		heatCapacity = 1.0
 		#Amount of fluid (mB) that each block of the evaporation plant contributes to the input tank capacity. Max = volume * fluidPerTank
 		#Range: 1 ~ 29826161
 		fluidPerTank = 64000
