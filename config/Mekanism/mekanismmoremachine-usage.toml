@@ -1,0 +1,6 @@
+
+#Mekanism: More Machine Energy Usage Config. This config is synced from server to client.
+[storage]
+	#Energy per operation tick (Joules).
+	energyCatalystMachine = "100"
+

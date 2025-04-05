@@ -8,5 +8,5 @@
 # Uncomment the next line to set it.
 # -Xmx4G
 -Xms3000M
--Xmx20000M
+-Xmx28000M
 

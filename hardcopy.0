@@ -1,0 +1,44 @@
+:?] {re:classloading}
+        at appeng.crafting.CraftingTreeNode.request(CraftingTreeNode.java:258) ~[appliedenergistics2-forge-15.3.4.jar%23289!/:?] {r
+e:classloading}
+        at appeng.crafting.CraftingTreeProcess.request(CraftingTreeProcess.java:114) ~[appliedenergistics2-forge-15.3.4.jar%23289!/
+:?] {re:classloading}
+        at appeng.crafting.CraftingTreeNode.request(CraftingTreeNode.java:258) ~[appliedenergistics2-forge-15.3.4.jar%23289!/:?] {r
+e:classloading}
+        at appeng.crafting.CraftingTreeProcess.request(CraftingTreeProcess.java:114) ~[appliedenergistics2-forge-15.3.4.jar%23289!/
+:?] {re:classloading}
+        at appeng.crafting.CraftingTreeNode.request(CraftingTreeNode.java:258) ~[appliedenergistics2-forge-15.3.4.jar%23289!/:?] {r
+e:classloading}
+        at appeng.crafting.CraftingCalculation.runCraftAttempt(CraftingCalculation.java:147) ~[appliedenergistics2-forge-15.3.4.jar
+%23289!/:?] {re:classloading}
+        at appeng.crafting.CraftingCalculation.computePlan(CraftingCalculation.java:129) ~[appliedenergistics2-forge-15.3.4.jar%232
+89!/:?] {re:classloading}
+        at appeng.crafting.CraftingCalculation.run(CraftingCalculation.java:88) ~[appliedenergistics2-forge-15.3.4.jar%23289!/:?] {
+re:classloading}
+        at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?] {}
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?] {}
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?] {}
+        at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+[13:00:00] [ftbbackups2_Worker-1/INFO] [ne.cr.ft.FTBBackups/]: Attempting to create an automatic backup
+[13:00:00] [ftbbackups2_Worker-1/INFO] [ne.cr.ft.FTBBackups/]: Found world folder at /home/mc/modserver/./world/.
+[13:00:00] [ftbbackups2_Worker-1/ERROR] [ne.cr.ft.FTBBackups/]: An error occurred while running backup!
+java.lang.NullPointerException: Cannot invoke "net.creeperhost.ftbbackups.data.Backups.isEmpty()" because the return value of "java
+.util.concurrent.atomic.AtomicReference.get()" is null
+        at net.creeperhost.ftbbackups.BackupHandler.getLatestBackup(BackupHandler.java:424) ~[ftbbackups2-forge-1.20-1.0.23.jar%233
+52!/:?] {re:classloading}
+        at net.creeperhost.ftbbackups.BackupHandler.canCreateBackup(BackupHandler.java:676) ~[ftbbackups2-forge-1.20-1.0.23.jar%233
+52!/:?] {re:classloading}
+        at net.creeperhost.ftbbackups.BackupHandler.createBackup(BackupHandler.java:201) ~[ftbbackups2-forge-1.20-1.0.23.jar%23352!
+/:?] {re:classloading}
+        at net.creeperhost.ftbbackups.BackupHandler.createBackup(BackupHandler.java:183) ~[ftbbackups2-forge-1.20-1.0.23.jar%23352!
+/:?] {re:classloading}
+        at net.creeperhost.ftbbackups.FTBBackups$BackupJob.execute(FTBBackups.java:135) ~[ftbbackups2-forge-1.20-1.0.23.jar%23352!/
+:?] {re:classloading}
+        at net.creeperhost.ftbbackups.repack.org.quartz.core.JobRunShell.run(JobRunShell.java:206) ~[ftbbackups2-forge-1.20-1.0.23.
+jar%23352!/:?] {re:classloading}
+        at net.creeperhost.ftbbackups.repack.org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:548) ~[ftbbac
+kups2-forge-1.20-1.0.23.jar%23352!/:?] {re:classloading}
+[13:01:55] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: ryokky3 lost connection: Disconnected
+[13:01:55] [Server thread/INFO] [minecraft/MinecraftServer]: ryokky3 left the game
+[13:05:29] [Server thread/WARN] [minecraft/ServerGamePacketListenerImpl]: TAKA_HARU moved too quickly! 8.0,21.0,-4.0
+>
