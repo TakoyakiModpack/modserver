@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.antimatter",
+  "colors": [
+    "caccda",
+    "9a9ca6"
+  ],
+  "ingredient": {
+    "tag": "forge:pellets/antimatter"
+  }
+}
