@@ -1,7 +1,19 @@
 [
   {
+    "uuid": "189d04a3-1e66-3c06-a229-76ce73a1d7d6",
+    "name": "TAKA_HARU",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "7ee3caa2-8a47-384e-846f-3b4444e6ed1a",
     "name": "22vz",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "eb196915-6763-3c83-ad36-d5759d7a97ad",
+    "name": "megane0482",
     "level": 4,
     "bypassesPlayerLimit": false
   }
