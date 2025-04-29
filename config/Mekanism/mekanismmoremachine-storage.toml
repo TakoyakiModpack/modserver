@@ -1,0 +1,6 @@
+
+#Mekanism: More Machine Energy Storage Config. This config is synced from server to client.
+[storage]
+	#Base energy storage (Joules).
+	energyCatalystMachine = "6400000"
+

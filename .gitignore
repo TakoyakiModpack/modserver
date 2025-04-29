@@ -1,1 +1,14 @@
  .DS_Store
+logs
+crash-reports
+backups
+banned-players.json
+banned-ips.json
+Forge-1.20.1-47.4.0-Installer.jar.log
+ldlib
+local
+modernfix
+libraries
+usercache.json
+usernamecache.json
+world

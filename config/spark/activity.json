@@ -1,0 +1,27 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "TAKA_HARU",
+      "uniqueId": "189d04a3-1e66-3c06-a229-76ce73a1d7d6"
+    },
+    "time": 1744285751092,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/DvtzrBFl8M"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Console"
+    },
+    "time": 1744276537366,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/NcxwQdlvFp"
+    }
+  }
+]
