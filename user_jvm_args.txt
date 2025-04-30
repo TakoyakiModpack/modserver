@@ -8,5 +8,14 @@
 # Uncomment the next line to set it.
 # -Xmx4G
 -Xms3000M
--Xmx28000M
-
+-Xmx18000M
+-XX:+UnlockExperimentalVMOptions 
+-XX:+UseG1GC 
+-XX:G1NewSizePercent=20 
+-XX:G1ReservePercent=20 
+-XX:G1HeapRegionSize=32M 
+-XX:+UseStringDeduplication
+-XX:+UseCompressedOops 
+-XX:+ParallelRefProcEnabled 
+-XX:ParallelGCThreads=8 
+-XX:ConcGCThreads=8
