@@ -202,7 +202,7 @@
 	[general.thermal_evaporation]
 		#Thermal Evaporation Tower heat loss per tick.
 		#Range: 0.001 ~ 1000.0
-		heatDissipation = 0
+		heatDissipation = 0.001
 		#Temperature to amount produced ratio for Thermal Evaporation Tower.
 		#Range: 0.001 ~ 1000000.0
 		tempMultiplier = 0.4
