@@ -208,7 +208,7 @@
 		tempMultiplier = 0.4
 		#Heat to absorb per Solar Panel array of Thermal Evaporation Tower.
 		#Range: 0.001 ~ 1000000.0
-		solarMultiplier = 20
+		solarMultiplier = 0.2
 		#Heat capacity of Thermal Evaporation Tower layers (increases amount of energy needed to increase temperature).
 		#Range: 1.0 ~ 1000000.0
 		heatCapacity = 100.0
